@@ -1,0 +1,30 @@
+{
+    "name": "jenn0pal/paymongo-php",
+    "description": "A PHP wrapper for paymongo",
+    "require": {
+        "guzzlehttp/guzzle": "^7.2",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+        ,
+        "phpunit/phpunit": "^8.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ray",
+            "email": "jenn0pal@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "jenn0pal\\Paymongo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "jenn0pal\\Paymongo\\Tests\\": "tests/"
+        }
+    }
+}
