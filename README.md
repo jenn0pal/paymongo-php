@@ -8,7 +8,7 @@ This a framework agnostic PHP wrapper for accessing Paymongo API.
 
 ### Installation
 ```sh
-composer require jenn0pal\paymongo-php
+composer require jenn0pal/paymongo-php:dev-master
 ```
 
 ### Usage
